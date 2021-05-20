@@ -1,0 +1,234 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    background: rgba(243,246,255);
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+}
+@media (min-width:200px) and (max-width:575px){
+    .fb-right{
+    width: 98% !important;
+    margin: auto !important;
+    text-align: center !important;
+}
+}
+@media (min-width:576px) and (max-width:768px){
+      .fb-right{
+    width: 80% !important;
+    margin-right: 10% !important;
+    text-align: center !important;
+}
+}
+@media (min-width:200px) and (max-width:768px){
+
+    .container-m{
+    width: 100% !important;
+}
+.facebook-header{
+    display: block !important;
+}
+.login{
+    width: 100% !important;
+}
+.fb-left{
+    display: none !important;
+}
+#modal-form{
+    width: 100% !important;
+    left: 0% !important;
+}
+}
+.padding{
+    padding: 4%;
+}
+.facebook-header{
+    background: #3b5998;
+    display: none;
+}
+.facebook-header h1{
+    color: white;
+    padding: 10px 0px;
+}
+/* ---------------------------------------------login and signup style  */
+
+.container-m{
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 82%;
+}
+/* ---------------------------------------------login style  */
+.fb-left{
+    width: 58%;
+    float: left;
+}
+.facebook-logo{
+    width: 50%;
+    margin-top: 50px;
+}
+.facebook-logo-desc{
+    padding: 0px 74px 0px 32px;
+}
+/* ----------------------------------------------login style  */
+.fb-right{
+    width: 42%;   
+    float: right;
+}
+#leye{
+    position: relative;
+}
+#leye i{
+    position: absolute;
+    top: 29%;
+    right: 4%;
+    font-size: 25px;
+    color: gray;
+    cursor: pointer;
+}
+.login{
+    width: 92%;
+    border-radius: 9px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.input-login{
+    width: 100%;
+    height: 55px;
+    border-radius: 7px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 14px;
+    font-size: 17px;
+    outline: none;
+}
+.input-login::placeholder{
+    color: rgba(128,128,128,0.7);
+}
+.input-login:focus::placeholder{
+    color: rgba(128,128,128,0.5);
+}
+.login-btn{
+    background-color: #1877f2;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+}
+.forgot-login-user a{
+font-size: 14px;
+}
+.user-create-accout button{
+    outline: none;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 11px 14px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.user-create-accout button:hover{
+    background-color: #29a810;
+}
+/* -------------------------------------------------------signup modal  */
+#modal{
+    background: rgba(255,255,255,0.7);
+    position: fixed;
+    display: none;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+#modal-form{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    position: relative;
+    width: 34%;
+    top: 10%;
+    background: white;
+    left: calc(50% - 17%);
+    padding: 15px;
+    border-radius: 5px;
+}
+#close-btn{
+    position: absolute;
+    color: gray;
+    width: 25px;
+    text-align: center;
+    font-size: 30px;
+    height: 30px;
+    top: 7px;
+    right: 5px;
+    cursor: pointer;
+}
+.modal-title p:first-child{
+    font-size: 30px;
+    margin: 0px;
+    font-weight: bold;
+}
+.modal-title p:last-child{
+    color: gray;
+}
+.signup-date label{
+    font-size: 14px;
+    margin: 0px;
+    color: gray;
+}
+.signup-gender label{
+    font-size: 14px;
+    margin: 0px;
+    color: gray;
+}
+.signup-desc p{
+    color: gray;
+    font-size:11px;
+    margin-top:10px;
+}
+.gender-radio{
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 7px;
+    border-radius: 5px;
+}
+.gender-radio input{
+    float: right;
+    margin-top: 6px;
+}
+/* --------------------------------------------------------------Success or Failed Message  */
+.error-msg{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px 14px;
+    background-color: rgba(255, 110, 110, 0.719);
+    border-radius: 4px;
+    display: none;
+    z-index: 12;
+}
+.qf-error-msg{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px 14px;
+    background-color: rgba(255, 110, 110, 0.719);
+    border-radius: 4px;
+    display: none;
+    z-index: 12;
+}
+.success-msg{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px 14px;
+    border-radius: 4px;
+    background-color: rgba(132, 255, 159, 0.767);
+    display: none;
+    z-index: 12; 
+}

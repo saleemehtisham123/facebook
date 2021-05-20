@@ -1,0 +1,208 @@
+body{
+margin: 0%;
+padding: 0%;
+font-family: Helvetica, Arial, sans-serif;
+box-sizing: border-box;
+background: rgba(243,246,255);
+direction: ltr;
+line-height: 1.34;
+margin: 0;
+padding: 0;
+unicode-bidi: embed;
+}
+@media(min-width:200px) and (max-width:359px){
+.fb-logo_search i{
+left: 22% !important;
+top: 38% !important;
+}
+.add_friend{
+    float: none !important;
+}
+.added_friend{
+    float: none !important;
+}
+.accept_friend_request{
+    float: none !important;
+}
+}
+@media(min-width:360px) and (max-width:574px){
+.fb-logo_search i{
+left: 14% !important;
+top: 38% !important;
+}
+
+}
+@media(min-width:575px) and (max-width:767px){
+.fb-logo_search i{
+left: 9% !important;
+top: 38% !important;
+}
+}
+@media(min-width:768px) and (max-width:992px){
+.fb-logo_search i{
+left: 31% !important;
+top: 34% !important;
+}
+}
+@media(min-width:993px) and (max-width:1200px){
+.fb-logo_search i{
+left: 24% !important;
+top: 35% !important;
+}
+}
+@media(min-width:768px){
+ 
+}
+@media(min-width:360px) and (max-width:768px){
+
+}
+@media(max-width:768px){
+.fb-logo_search input{
+    width: 72% !important;
+}
+}
+/* -------------------------------------------------------------------------------home header left */
+.header{
+position: sticky;
+left: 0%;
+top: 1%;
+z-index: 10;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.fb-logo_search{
+position: relative;
+}
+.fb-logo_search img{
+width: 40px;
+height: 40px;
+}
+.fb-logo_search input{
+border: none;
+background: rgba(0,0,0,.06);
+padding: 9px 7px 7px 35px;
+border-radius: 20px;
+outline: none;
+width: 74%;
+}
+.fb-logo_search i{
+position: absolute;
+left: 19%;
+top: 35%;
+color: gray;
+}
+/* -------------------------------------------------------------------------------home header right */
+.home i{
+font-size: 30px;
+margin-top: 10px;
+}
+.home a{
+color: gray;
+}
+.home{
+border-radius: 4px;
+width: 15%;
+height: 100%;
+}
+.home:hover{
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.profile_img_logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.profile{
+padding: 6px 15px 0px 15px;
+margin-left: auto;
+}
+.profile:hover{
+    background: rgba(0,0,0,.1);
+    border-radius: 5px;
+}
+.profile span{
+    color: #007bff;
+    font-weight: bold;
+    font-family: cursive;
+}
+.profile a{
+margin-top: 6px;
+color: black;
+}
+.profile a:hover{
+text-decoration: none;
+color: black;
+}
+.message i{
+    color: gray;
+    font-size: 20px;
+    margin: 8px 8px 0px 8px;
+    background: rgba(00,0,0,.1);
+    border-radius: 50%;
+    padding: 7px 9px;
+}
+.notification i{
+    color: gray;
+    font-size: 20px;
+    margin: 8px 8px 0px 8px;
+    background: rgba(00,0,0,.1);
+    border-radius: 50%;
+    padding: 7px 9px;
+}
+/* -------------------------------------------------------------------------------friends css */
+.w-87{
+    width: 87%;
+    margin: auto;
+}
+/* -------------------------------------------------------------------------------You may know */
+.you-may-know{
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px 0px grey;
+}
+.users-profile-link{
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px 0px grey;
+}
+.users-id-anchor{
+    color: black;
+}
+.users-id-anchor:hover{
+    text-decoration: none;
+    color: black;
+}
+.profile_img_logo{
+    width: 45px;
+    border-radius: 50%;
+}
+.add_friend{
+    float: right;
+}
+.added_friend{
+    float: right;
+}
+.accept_friend_request{
+    float: right;
+}
+/* -------------------------------------------------------------------------------friends */
+
+.friends{
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px 0px grey;
+}
+/* -------------------------------------------------------------------------------friend requests */
+
+.friend-requests{
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px 0px grey;
+}
+/* -------------------------------------------------------------------------------pending requests */
+
+.pending-requests{
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px 0px grey;
+}

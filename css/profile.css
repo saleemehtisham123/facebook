@@ -1,0 +1,292 @@
+
+@media(min-width:200px) and (max-width:359px){
+.upload_profile_cover{
+    height: 35vh !important;
+}
+.upload_profile_img{
+    height:100px !important;
+    left: 28vw !important;
+    width: 34vw !important;
+}
+.trigger-like{
+    font-size: 10px !important;
+}
+.trigger-comment{
+    font-size: 10px !important;
+}
+.trigger-share{
+    font-size: 10px !important;
+}
+}
+@media(min-width:360px) and (max-width:574px){
+.upload_profile_cover{
+    height: 40vh !important;
+}
+.upload_profile_img{
+    height:100px !important;
+    left: 39vw !important;
+    width: 20vw !important;
+}
+}
+@media(min-width:575px) and (max-width:767px){
+.upload_profile_cover{
+    height: 50vh !important;
+}
+.upload_profile_img{
+    height:150px !important;
+    left: 39vw !important;
+    width: 23vw !important;
+}
+}
+@media(min-width:768px) and (max-width:992px){
+.upload_profile_img{
+    height:159px !important;
+    left: 27vw !important;
+    width: 20vw !important;
+}
+}
+@media(min-width:993px) and (max-width:1200px){
+
+}
+@media(min-width:768px){
+ 
+}
+@media(min-width:360px) and (max-width:768px){
+
+.trigger-like{
+    font-size: 14px !important;
+}
+.trigger-comment{
+    font-size: 14px !important;
+}
+.trigger-share{
+    font-size: 14px !important;
+}
+}
+@media(max-width:768px){
+.width-75{
+    width: 100% !important;
+}
+#modal-form{
+    width: 100% !important;
+    left: 0 !important;
+    top: 10% !important;
+}
+#fullsizeimage{
+    width: 100% !important;
+}
+}
+
+/* -------------------------------------------------------------------------------home header right*/
+.home a{
+    color: gray;
+}
+.profile span{
+    color: #007bff;
+    font-weight: bold;
+    font-family: cursive;
+}
+.message i{
+    color: gray;
+}
+.notification i{
+    color: gray;
+}
+/* ------------------------------------------------------------------------------profile body css  */
+
+.backgradient{
+    box-shadow: 2px 1px 5px 1px darkgrey;
+    background: linear-gradient(to bottom, rgba(25,0,255,0.1), transparent);
+}
+.width-75{
+    width: 75%;
+    max-width: 1200px;
+}
+.profile-img{
+    position: relative;
+}
+#profile-cover{
+    text-align: center;
+}
+.upload_profile_cover{
+    text-align: center;
+    width: auto;
+    height: 70vh;
+    border-radius: 12px;
+}
+.edit-pro-cover{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    padding: 7px;
+    background: rgba(0,0, 0, 0.4);
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+
+}
+.edit-pro-img{
+    position: absolute;
+    bottom: 0;
+    left: 52%;
+    font-size: 20px;
+    padding: 7px;
+    background: rgba(0,0,0,.4);
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+.upload_profile_img{
+    position: absolute;
+    bottom: -15px;
+    left:37%;
+    border-radius: 50%;
+    width:19%;
+    height:179px;
+    border: 5px solid white;
+}
+/* ------------------------------------------------------------------------------profile title  */
+
+.profile-title p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+}
+/* ------------------------------------------------------------------------------about  */
+
+.about{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px -9px;
+}
+.martial-status p{
+    margin-bottom: 0px;
+    margin-left: 3px;
+}
+.martial-status{
+    align-items: center;
+}
+.martial-status i{
+    color: red;
+}
+
+/* ------------------------------------------------------------------------------ show posts*/
+
+.show-posts{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px -9px;
+}
+.post-top img{
+    float: left;
+    width: 45px;
+    border-radius: 50%;
+}
+.post-edit{
+    position: relative;
+    cursor: pointer;
+    float: right;
+    margin-top: -27px;
+}
+.post-edit p{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin: 0%;
+}
+.post-edit div{
+    box-shadow: 0px 0px 14px -9px;
+    background-color: white;
+    position: absolute;
+    padding: 15px;
+    margin: 0px;
+    top: 18px;
+    right: 17px;
+    display: none; 
+}
+.post-edit:hover div{
+    display: block;
+}
+.post-bottom{
+    box-shadow: 0px 0px 14px -9px;   
+    align-items: center;
+}
+.trigger-comment{
+    font-size: 20px;
+    cursor: pointer;
+}
+.trigger-share{
+    font-size: 20px;
+    cursor: pointer;
+}
+.w-33{
+    width:33.33%;
+}
+/* ------------------------------------------------------------------------------ like css*/
+.trigger-like{
+    font-size: 20px;
+    cursor: pointer;
+}
+.like-count{
+    margin: 0px;
+}
+/* ------------------------------------------------------------------------------ COMMENT css*/
+
+.comment-area{
+    box-shadow: 0px 0px 14px -9px;   
+
+}
+.insert_comment img{
+    width: 45px;
+    border-radius: 50%;
+}
+.insert_comment input{
+    border: none;
+    background: rgba(0,0,0,.07);
+    padding: 9px 7px 7px 35px;
+    border-radius: 20px;
+    outline: none;
+    width: 82%;
+    margin: 4% 0% 0% 3%;
+}
+.insert_comment input:hover{
+    background: rgba(0,0,0,.1);
+    cursor: pointer;
+}
+.comment-anchor{
+    color: black;
+    text-decoration: none;
+}
+.comment-anchor:hover{
+    color: black;
+    text-decoration: none;
+}
+.comment-by img{
+    width: 45px;
+    border-radius: 50%;
+}
+.comment-by{
+    align-items: center;
+}
+.full-comment{
+    box-sizing: border-box;
+}
+.comment p{
+    margin: 0px;
+}
+.comment{
+    padding: 10px;
+    border-radius: 15px;
+    background: rgba(0,0,0,.1);
+    margin: 0px 0px 5px 5px;
+}
+.load-more-comment{
+    cursor: pointer;
+    padding: 10px;
+    width:40%;
+    border-radius: 15px;
+    background: rgba(0,0,0,.1);
+    margin: 0px 0px 5px 0px;
+}
+.load-more-comment:hover{
+    background: rgba(0,0,0,.3);
+}

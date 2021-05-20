@@ -1,0 +1,464 @@
+body{
+margin: 0%;
+padding: 0%;
+font-family: Helvetica, Arial, sans-serif;
+box-sizing: border-box;
+background: rgba(243,246,255);
+direction: ltr;
+line-height: 1.34;
+margin: 0;
+padding: 0;
+unicode-bidi: embed;
+}
+@media(min-width:200px) and (max-width:359px){
+.fb-logo_search i{
+left: 22% !important;
+top: 38% !important;
+}
+}
+@media(min-width:360px) and (max-width:574px){
+.fb-logo_search i{
+left: 14% !important;
+top: 38% !important;
+}
+
+}
+@media(min-width:575px) and (max-width:767px){
+.fb-logo_search i{
+left: 9% !important;
+top: 38% !important;
+}
+
+}
+@media(min-width:768px) and (max-width:992px){
+.fb-logo_search i{
+left: 31% !important;
+top: 34% !important;
+}
+}
+@media(min-width:993px) and (max-width:1200px){
+.fb-logo_search i{
+left: 24% !important;
+top: 35% !important;
+}
+}
+@media(min-width:768px){
+ 
+}
+@media(min-width:360px) and (max-width:768px){
+
+}
+@media(max-width:768px){
+.fb-logo_search input{
+    width: 72% !important;
+}
+.width-75{
+    width: 100% !important;
+}
+}
+/* -------------------------------------------------------------------------------home header left  */
+.header{
+    position: sticky;
+    left: 0%;
+    top: 0%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    z-index: 1;
+}
+.fb-logo_search{
+    position: relative;
+}
+.fb-logo_search img{
+    width: 40px;
+    height: 40px;
+}
+.fb-logo_search input{
+    border: none;
+    background: rgba(0,0,0,.06);
+    padding: 9px 7px 7px 35px;
+    border-radius: 20px;
+    outline: none;
+    width: 74%;
+}
+.fb-logo_search i{
+    position: absolute;
+    left: 19%;
+    top: 35%;
+    color: gray;
+}
+/* -------------------------------------------------------------------------------home header right  */
+.home i{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.home{
+    width: 15%;
+    height: 100%;
+}
+.home a{
+    color: gray;
+}
+.profile{
+    padding: 6px 15px 0px 15px;
+    margin-left: auto;
+}
+.profile:hover{
+    background: rgba(0,0,0,.1);
+    border-radius: 5px;
+}
+.profile span{
+    font-weight: bold;
+    font-family: cursive;
+}
+.profile_img_logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.profile a{
+    margin-top: 6px;
+    color: black;
+}
+.profile a:hover{
+    text-decoration: none;
+    color: black;
+}
+.message i{
+    font-size: 20px;
+    position: relative;
+    margin: 8px 8px 0px 8px;
+    background: rgba(00,0,0,.1);
+    border-radius: 50%;
+    padding: 7px 9px;
+}
+.message i span{
+    position: absolute;
+    right: 0;
+    top: -5px;
+    background: red;
+    padding: 0px 4px;
+    font-size: 16px;
+    border-radius: 50%;
+    color: white;
+}
+/* -------------------------------------------------------------------------------notification drop  */
+.notification-icon{
+    cursor: pointer;
+    position: relative;
+}
+.notification-icon>i{
+    color: gray;
+    font-size: 20px;
+    margin: 8px 8px 0px 8px;
+    background: rgba(00,0,0,.1);
+    border-radius: 50%;
+    padding: 7px 9px;
+}
+.notification-drop{
+    width: 500%;
+    position: absolute;
+    cursor: auto;
+    top:60px;
+    right: 15px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px 0px grey;
+}
+/* -------------------------------------------------------------------------------setting drop  */
+.setting-and-logout{
+    cursor: pointer;
+    position: relative;
+}
+.setting-and-logout>i{
+    color: gray;
+    font-size: 20px;
+    margin: 8px 8px 0px 8px;
+    background: rgba(00,0,0,.1);
+    border-radius: 50%;
+    padding: 9px 14px;
+}
+.setting-drop{
+    width: 500%;
+    position: absolute;
+    cursor: auto;
+    top:60px;
+    right: 15px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px 0px grey;
+}
+.go-to-profile{
+    padding-bottom: 19px;
+}
+.go-to-profile:hover{
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+.go-to-profile div{
+width: 70px;
+float: left;
+}
+.go-to-profile div img{
+width: 100%;
+border-radius: 50%;
+}
+.go-to-profile span{
+color: gray;
+}
+.go-to-profile b{
+color: black;
+}
+.go-to-profile a{
+text-decoration: none;
+}
+/* -------------------------------------------------------------------------------setting */
+.setting{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    color: gray;
+}
+.setting:hover{
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+.setting p{
+    margin: 0px 0px 0px 10px;
+}
+.setting i{
+    color: gray;
+    font-size: 20px;
+    background: rgba(00,0,0,.1);
+    border-radius: 50%;
+    padding: 9px 14px;
+}
+/* -------------------------------------------------------------------------------logout*/
+
+.logout a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    color: gray;
+}
+.logout:hover{
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+.logout p{
+    margin: 0px 0px 0px 10px;
+}
+.logout i{
+    color: gray;
+    font-size: 20px;
+    background: rgba(00,0,0,.1);
+    border-radius: 50%;
+    padding: 9px 13px;
+}
+/* -------------------------------------------------------------------------------profile setting modal get data  */
+.modal-title p{
+    font-size:20px;
+    font-weight: bold;
+}
+#profile-setting-modal{
+    background: rgba(255,255,255,0.7);
+    position: fixed;
+    display: none;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index:11;
+}
+#profile-setting-form{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    position: relative;
+    width: 40%;
+    top: 10%;
+    background: white;
+    left: calc(50% - 20%);
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 11;
+}
+#close-btn{
+    background-color: rgba(0,0,0,.1);
+    border-radius: 50%;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    color: gray;
+    width: 37px;
+    height: 38px;
+    top: 7px;
+    right: 5px;
+    cursor: pointer;
+}
+#close-btn p{
+    text-align: center;
+    font-size: 30px;
+}
+.signup-date label{
+    font-size: 14px;
+    margin: 0px;
+    color: gray;
+}
+.signup-gender label{
+    font-size: 14px;
+    margin: 0px;
+    color: gray;
+}
+.signup-desc p{
+    color: gray;
+    font-size:11px;
+    margin-top:10px;
+}
+.gender-radio{
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 7px;
+    border-radius: 5px;
+}
+.gender-radio input{
+    float: right;
+    margin-top: 6px;
+}
+/* --------------------------------------------------------------Success or Failed Message  */
+.error-msg{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px 14px;
+    background-color: rgba(255, 110, 110, 0.719);
+    border-radius: 4px;
+    display: none;
+    z-index: 12;
+}
+
+.success-msg{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px 14px;
+    border-radius: 4px;
+    background-color: rgba(132, 255, 159, 0.767);
+    display: none;
+    z-index: 12; 
+}
+/* ------------------------------------------------------------------------------insertt posts  */
+.posts{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px -9px;
+}
+#post-modal{
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    display: none;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index:11;
+}
+#insert-post-modal-form{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    position: relative;
+    width: 34%;
+    top: 10%;
+    background: white;
+    left: calc(50% - 17%);
+    padding: 15px;
+    border-radius: 5px;
+    z-index:11;
+
+}
+#close-btn{
+    background-color: rgba(0,0,0,.1);
+    border-radius: 50%;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    color: gray;
+    width: 37px;
+    height: 38px;
+    top: 7px;
+    right: 5px;
+    cursor: pointer;
+}
+#close-btn p{
+    text-align: center;
+    font-size: 30px;
+}
+#insert-post-prof-img img{
+    width: 45px;
+    border-radius: 50%;
+}
+#insert-post-prof-img input{
+    border: none;
+    background: rgba(0,0,0,.07);
+    padding: 9px 7px 7px 35px;
+    border-radius: 20px;
+    outline: none;
+    width: 88%;
+    margin-left: 2%;
+}
+#insert-post-prof-img input:hover{
+    background: rgba(0,0,0,.1);
+    cursor: pointer;
+}
+.modal-title p{
+    font-size:20px;
+    font-weight: bold;
+}
+.insert-post-modal-inner img{
+    width: 10%;
+    border-radius: 50%;
+}
+.insert-post-modal-inner input{
+    border: none;
+    background: rgba(0,0,0,.07);
+    padding: 9px 7px 7px 35px;
+    border-radius: 20px;
+    outline: none;
+    width: 84%;
+    margin-left: 2%;
+}
+/* ------------------------------------------------------------------------------ full size image*/
+
+#fullsizeprforcovermodal{
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    display: none;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index:11;
+}
+#fullsizeimage{
+    box-shadow: 0 2px 4px rgba(255, 255, 255, .6);
+    position: relative;
+    width: 50%;
+    top: 0%;
+    background: white;
+    left: 0%;
+    padding: 40px 25px;
+    border-radius: 5px;
+    z-index:11;
+
+}
+#close-btn{
+    background-color: rgba(0,0,0,.3);
+    border-radius: 17%;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    color: white;
+    width: 37px;
+    height: 38px;
+    top: 7px;
+    right: 5px;
+    cursor: pointer;
+}
+#close-btn p{
+    text-align: center;
+    font-size: 30px;
+}
